@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新浪导航栏案例</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		.nav{
+			width: 1440px;
+			height: 50px;
+			background-color: #FCFCFC;
+			
+			margin: 0;
+			border-top: 3px solid orange;
+			border-bottom: 1px solid gray;
+			
+			margin: auto;
+			text-align: center;
+		}
+		.nav a {
+			display: inline-block;
+			height: 50px;
+			line-height: 50px;
+			padding: 0 20px;
+			margin-left: 15px;
+			margin-right: 15px;
+				
+			text-decoration: none;
+			font-size: 12px;
+			color:#000000;
+		}
+		.nav a:hover{
+			background-color: #CCC ;
+			color: #FFF ;
+		}
+		.box {
+			width: 300px;
+			height: 195px;
+			margin: 10px auto;
+			border: 1px solid #c1c3c0;
+			padding: 15px;
+			
+			background-image: url(images/228px灰色渐变背景.JPG)
+			
+		}
+		.box h2 {
+			border-bottom: 1px solid #c1c3c0;
+			margin-bottom: 15px;
+		}
+		.box ul li {
+			height: 30px;
+			line-height: 30px;
+			border-bottom: 1px dashed #c1c3c0;
+			background: url(images/小箭头1.jpg) no-repeat 5px center;
+			padding: 0 20px;
+		}
+		.box ul li a {
+			color: #000000;
+			font-size: 13px;
+			text-decoration: none;
+		}
+		.box ul li a:hover {
+			text-decoration: underline;
+		}
+		.circle {
+			width: 500px;
+			height: 200px;
+			background-color: gray;
+			border-radius: 100px;
+/*			阴影：x,y,模糊程度，大小，阴影颜色*/
+			box-shadow: 0px 15px 30px 0px green;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="nav">
+		<a href="#">设为首页</a>
+		<a href="#">手机新浪网</a>
+		<a href="#">移动客户端</a>
+		<a href="#">微博</a>
+		<a href="#">微客</a>
+		<a href="#">关注我</a>
+	</div>
+	<div class="box">
+		<h2>最新文章/New Articles</h2>
+	
+		<ul>
+			<li><a href="#">北京招聘网页设计，平面设计，php</a></li>
+			<li><a href="#">体验javas的魅力</a></li>
+			<li><a href="#">jquery世界来临</a></li>
+			<li><a href="#">网页设计师的梦想</a></li>
+			<li><a href="#">jquery中的链式编程是什么</a></li>
+		</ul>
+	</div>
+	<div class="circle"></div>
+</body>
+</html>

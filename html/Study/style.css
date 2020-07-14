@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 默认元素边距 */
+* {
+	margin: 0;
+	padding: 0;
+}
+button {
+	border: none;
+}
+li {
+	list-style: none;
+}
+body {
+	background-color: #f3f5f7;
+}
+/* 版心  居中对齐  */
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/*header start*/
+.header {
+	height: 41px;
+/*	background-color: gray;*/
+	margin: 30px auto;
+}
+
+.logo {
+	float: left;
+	margin-right: 60px;
+}
+
+.nav {
+	float: left;
+} 
+
+.nav ul li {
+	float: left;
+}
+
+.nav ul li a {
+	display: block;
+	height: 40px;
+	padding: 0 10px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #050505;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+	float: left;
+	margin-left: 70px;
+}
+
+.search input{
+	width: 340px;
+	height: 38px;
+	padding-left: 20px;
+	border: 1px solid #00a4ff;
+	line-height: 40px;
+	color: #ccc;
+	float: left;
+}
+
+.search button {
+	width: 50px;
+	height: 40px;
+	background-image: url(images/SearchButton.png);
+	float: left;
+}
+
+.user {
+	float: left;
+	height: 42px;
+	margin-left: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666666;
+}
+/*header end*/
+/*banner start*/
+.banner {
+	height: 420px;
+/*	background-color: #1c036c;*/
+	background: #1c036c url(images/BannerLogo.jpg) no-repeat top center;
+}
+.subnav {
+	float: left;
+	width: 150px;
+	height: 400px;
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.3);
+}
+.subnav ul li {
+	height: 45px;
+	line-height: 45px;
+}
+.subnav ul li a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-decoration: none;
+}
+.subnav ul li a snap {
+	float: right;
+}
+.subnav ul li a:hover {
+	color: #00a4ff;
+}
+.course {
+	float: right;
+	width: 228px;
+	height: 300px;
+	margin-top: 50px;
+	background-color: #FFFFFF;
+}
+.course-hd {
+	height: 48px;
+	background-color: #9bcaea;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 48px;
+	color: #FFFFFF;
+	
+}
+.course-bd {
+	height: 232px;
+	padding: 20px;
+	background-color: aqua
+	
+}
+/*banner end*/

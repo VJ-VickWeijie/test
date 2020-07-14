@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>day6</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.clearfix:before,
+		.clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}
+		.listyle {
+			display: block;
+			margin-left: 20px;
+		}
+		.one,
+		.two,
+		.three {
+			width: 200px;
+			height: 200px;
+		}
+		.one {
+			float: left;
+			background-color: antiquewhite;
+		}
+		.two {
+			float: left;
+			background-color: aqua;
+		}
+		.three {
+			float: left;
+			background-color: gray;
+		}
+		
+		.box {
+			width: 1226px;
+			height: 615px;
+			background-color: gray;
+			margin: auto;
+		}
+		.other1 {
+			float: left;
+			width: 234px;
+			height: 615px;
+			background-color: burlywood;
+		}
+		.other2 {
+			float: right;
+			width: 992px;
+			height: 615px;
+			background-color: aquamarine;
+		}
+		.other2 li {
+			width: 234px;
+			height: 300px;
+			background-color: white;
+			float: left;
+			margin-left: 14px;
+			margin-bottom: 14px;
+			list-style: none;
+		}
+		.other2 li a {
+			display: inline-block;
+			width: 234px;
+			height: 300px;
+			text-decoration: none;
+			text-align: center;
+			line-height: 300px;
+			
+		}
+		.other2 li a:hover {
+			box-shadow: 5px 10px 20px 0px #000;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<h1>1.浮动（float）</h1>
+		<h2>目标</h2>
+		<ul>
+			<li>记忆</li>
+			<li class="listyle">能够说出CSS的布局的三种机制</li>
+			<li>理解</li>
+			<li class="listyle">能够说出普通流在布局中的特点</li>
+			<li class="listyle">能够说出我们为什么用浮动</li>
+			<li class="listyle">能够说出我们为什么要清除浮动</li>
+			<li>应用</li>
+			<li class="listyle">能够利用浮动完成导航栏案例</li>
+			<li class="listyle">能够清除浮动</li>
+			<li class="listyle">能够使用PS切图工具</li>
+		</ul>
+	</div>
+<!--
+	<div>
+	    <div class="one">1</div>
+	    <div class="two">1</div>
+		<div class="three">1</div>
+	</div>
+-->
+
+	
+	<div class="box">
+		<div class="other1">左</div>
+		<div class="other2">
+			<ul>
+				<li><a href="https://www.mi.com/">小米网</a></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			
+			
+		</div>
+	</div>
+</body>
+</html>

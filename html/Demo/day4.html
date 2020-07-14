@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>day3小测验</title>
+    <style>
+		.nav,
+		.sitenav {
+			font-size: 14px;
+			font-family: "微软雅黑";
+		}
+		.site-r a{
+			color: #f00;
+		}
+		.nav ul li a {
+			color: orange;
+		}
+		.nav>a {
+			text-decoration:none;
+			text-align: center;
+			background-color: orange;
+		    color:#fff;
+			display: inline-block;
+			width:60px;
+			height: 24px;
+		}
+		/*伪类选择器  严格遵循顺序LVHA 不可颠倒*/
+		/*未访问的链接*/
+		a:link {
+			text-decoration: none;
+		}
+		/*已访问的链接*/
+		a:visited {
+			color:orange;
+		}
+		/*鼠标悬浮在链接上*/
+		a:hover {
+			color:red;
+		}
+		/*选中的链接*/
+		a:active{
+			color: green;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- 主导航栏 -->
+	<div class="nav">
+		<ul>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司简介</a></li>
+			<li><a href="#">公司产品</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<!-- 侧导航栏 -->
+	<div class="sitenav">
+		<div class="site-l">左侧导航栏</div>
+		<div class="site-r"><a href="#">登录</a></div>
+	</div>
+	<a href="#">小米手机</a>
+	<div class="nav">
+		<a href="#">体育</a>
+		<a href="#">娱乐</a>
+		<a href="#">体育</a>
+	</div>
+</body>
+</html>
